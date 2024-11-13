@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist Maker</title>
+    <link rel="stylesheet" href="http://127.0.0.1:5000/static/css/styles.css">
+</head>
+<body>
+    <h1>Make Playlist According To Your Vibe And Favorite Artists</h1>
+    <form id="vibe-form">
+        <label for="vibe">Select Genre:</label>
+        <select id="vibe" name="vibe" required></select>
+
+        <label for="artists">Enter Favorite Artists:</label>
+        <input type="text" id="artists" name="artists" autocomplete="off" required>
+        <div id="artist-suggestions" class="suggestions"></div>
+
+        <button type="submit">Get Playlist</button>
+    </form>
+    <div id="playlist"></div>
+    <script src="http://127.0.0.1:5000/static/js/script.js"></script>
+</body>
+</html>
