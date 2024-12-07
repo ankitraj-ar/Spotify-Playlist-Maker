@@ -1,0 +1,1 @@
+This code doesn't work anymore because of 27 November 2024, Spotify changed their API permission for Apps/Sites under Development and they no more allow Apps/Sites under Development to use genre seed and song preview.
