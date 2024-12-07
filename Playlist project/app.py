@@ -5,8 +5,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 app = Flask(__name__, static_folder='static', template_folder='templates')
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-    client_id="b1b77e61279947668e9bf43ca4c8f5c2",
-    client_secret="4a3754b692cb4cc58bbe6bc33f24d2b9"
+    client_id="", #can't show id and secret
+    client_secret="" #can't show id and secret
 ))
 
 @app.route('/')
